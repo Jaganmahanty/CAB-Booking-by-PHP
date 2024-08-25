@@ -1,0 +1,51 @@
+*{  
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 650px;
+  }
+
+.carousel-inner{
+  width: 100%;
+  height: 800px;
+}
+
+.container-fluid{
+  height: 55px;
+}
+
+.aboutimg{
+  width: 100%;
+  height: 265px !important;
+}
+
+.newabimg{
+  width: 300px !important;
+  height: 200px !important;
+}
+
+.nav-item {
+  border: 1px solid #ccc; /* Border color and width */
+  border-radius: 5px; /* Rounded corners */
+  margin: 5px; /* Margin around each nav item */
+  padding: 5px; /* Padding inside each nav item */
+  list-style: none; /* Remove default list styles */
+  display: inline-block; /* Display items horizontally */
+}
+
+/* Style the links inside the nav items */
+.nav-link {
+  text-decoration: none; /* Remove underlines */
+  color: #a10606; /* Link text color */
+  padding: 5px 10px; /* Padding around the link text */
+  display: block; /* Make the links block-level elements */
+}
+
+.d-flex{
+  padding-left: 15px;
+}
